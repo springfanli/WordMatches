@@ -1,20 +1,28 @@
 Steps to run the program
 1. Ensure JDK Installation: Make sure you have JDK 21 or higher installed to use virtual threads and try-with-resources for ExecutorService. This feature is introduced in 19 as a preview feature, if you have to use JDK 19, make sure to turn on the preview feature. You can check your Java version by running:
-java -version
+
+   java -version
 
 2. Ensure Maven Installation
-mvn -version
+
+   mvn -version
 
 3. Get the code
 To clone the project, create a folder and use the git clone command.
-$ cd $HOME
-$ mkdir code
-$ cd code
-$ git clone https://github.com/springfanli/WordMatches.git
-$ cd WordMatches
+
+   $ cd $HOME
+
+   $ mkdir code
+
+   $ cd code
+
+   $ git clone https://github.com/springfanli/WordMatches.git
+
+   $ cd WordMatches
 
 4. Compile the project
-mvn clean package
+  
+   mvn clean package
 
 5. Run the program
 - To run the program, put your input file and predefined words in the WordMatches dierctory or specify the absolute paths of those files.
