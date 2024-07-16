@@ -25,11 +25,11 @@ To clone the project, create a folder and use the git clone command.
    mvn clean package
 
 5. Run the program
-- To run the program, put your input file and predefined words in the WordMatches dierctory or specify the absolute paths of those files.
+- To run the program, put your input and predefined words files in the WordMatches dierctory or specify the absolute paths of those files.
 
        java -jar target/WordMatches-1.0-SNAPSHOT.jar input.txt predefined_words.txt
 
-- To test it on a large input file up 20MB and 10k predefined words. You can use the python script I provided to generate the test files following the steps below. Make sure you have python 3.5+ installed.
+- To test it on a large input file up 20MB and 10k predefined words. You can use the python script I provided to generate the test files following the steps below. Generating large test files might take 25-29 seconds. Make sure you have python 3.5+ installed.
 
        python pyscripts/generate_testdata.py
        java -jar target/WordMatches-1.0-SNAPSHOT.jar large_input.txt predefined_10k_words.txt > result_output.txt
