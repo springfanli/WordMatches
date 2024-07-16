@@ -1,10 +1,8 @@
 Steps to run the program
 1. Ensure JDK Installation: Make sure you have JDK 21 or higher installed to use virtual threads and try-with-resources for ExecutorService. This feature is introduced in 19 as a preview feature, if you have to use JDK 19, make sure to turn on the preview feature. You can check your Java version by running:
-      
 java -version
 
 2. Ensure Maven Installation
-
 mvn -version
 
 3. Get the code
